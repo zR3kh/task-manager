@@ -9,6 +9,7 @@ target/
 /bin/
 /backend/.idea/
 /backend/HELP.md
+/backend/src/main/resources/application.properties
 
 node_modules/
 dist/
