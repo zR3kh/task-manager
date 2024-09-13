@@ -7,13 +7,16 @@ target/
 /.gradle/
 /.settings/
 /bin/
+/backend/.idea/
+/backend/HELP.md
 
 node_modules/
 dist/
 build/
 
 /.idea/
-/.vscode/
+/frontend/.vscode/
+/frontend/.angular/
 *.iml
 
 .DS_Store
