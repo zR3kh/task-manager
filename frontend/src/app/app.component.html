@@ -1,0 +1,13 @@
+<div class="w-5/6 mx-auto">
+  <app-header/>
+  <div class="flex">
+    <div>
+      @for (user of users; track user.id) {
+        <app-user [user]="user" (onUserClick)="getUserId($event)"/>
+      }
+    </div>
+    @if (selectedUser) {
+      <app-tasks [userId]="selectedUser.id" class="bg-violet-400 rounded-lg ml-8 p-4 grow mb-4"/>
+    }
+  </div>
+</div>
